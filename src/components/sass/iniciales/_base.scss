@@ -1,0 +1,75 @@
+@import "../reutilizables/colors";
+@import "../reutilizables/Tipografias";
+
+body {
+  text-transform: uppercase;
+
+  p {
+    color: $Principal-azul;
+  }
+  .subtitulos-textos {
+    font-family: "abygaer";
+    font-size: 25px;
+  }
+  .cuerpo-textos {
+    font-family: "give-away";
+    font-size: 32px;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+  }
+  .otros-textos {
+    font-family: "give-away";
+    font-size: 16px;
+  }
+  button {
+    padding: 15px 20px;
+    border: none;
+    font-weight: 100;
+    color: $Principal-blanco;
+    font-size: 12px;
+    border-radius: 9999px;
+    background-color: $Principal-azul;
+    text-transform: uppercase;
+    font-family: "abygaer";
+  }
+
+  input {
+    border-radius: 9999px;
+    padding: 20px 30px;
+    border: 1px solid $Principal-azul;
+    outline: none;
+    font-size: 20px;
+    font-family: "abygaer";
+  }
+  .dropdown {
+    font-family: "abygaer";
+  }
+}
+
+@media (max-width: 846px) {
+  body {
+    .cuerpo-textos {
+      font-family: "give-away";
+      font-size: 18px;
+      line-height: 1;
+      margin: 0;
+      text-align: center;
+    }
+    .otros-textos {
+      font-family: "give-away";
+      font-size: 12px;
+    }
+    button {
+      font-size: 14px;
+    }
+
+    input {
+      border-radius: 9999px;
+      padding: 20px 30px;
+      border: 1px solid $Principal-azul;
+      outline: none;
+      font-size: 15px;
+    }
+  }
+}

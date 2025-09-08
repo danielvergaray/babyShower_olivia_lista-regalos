@@ -1,0 +1,340 @@
+@import "/src/components/sass/reutilizables/colors";
+
+@media (min-width: 847px) {
+  .modal-content {
+    background-color: $Principal-blanco;
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-family: "give-away";
+    //height: 320px;
+  }
+  .modal-header {
+    border-bottom: none !important;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    svg {
+      cursor: pointer;
+      font-size: 35px;
+      text-align: right;
+      color: $Principal-azul;
+    }
+    :hover {
+      color: $Secundario-naranja;
+    }
+  }
+  p {
+    font-size: 20px;
+    line-height: 1;
+    margin: auto;
+  }
+  button {
+    margin-top: 20px;
+    font-family: "abygaer";
+    font-size: 15px;
+  }
+
+  .modal-footer {
+    padding-top: 30px;
+    margin: auto;
+    border-top: none !important;
+    button {
+      font-size: 20px;
+      font-family: "abygaer";
+    }
+  }
+
+  .modal-listaRegalos {
+    .modal-body {
+      display: grid;
+      grid-template-columns: 40% 60%;
+
+      .listaRegalos-imagen {
+        grid-column: 1;
+        border: 1px solid $Principal-azul;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+          width: 100%;
+        }
+        p {
+          font-size: 12px;
+          padding-top: 10px;
+          text-align: left;
+          margin: 0;
+          width: 100%;
+          padding-left: 5px;
+        }
+      }
+      .listaRegalos-texto {
+        grid-column: 2;
+        padding: 30px 0 0 30px;
+      }
+
+      .disabledButton {
+        background-color: gray;
+      }
+
+      .seccion-formulario-regalos {
+        display: flex;
+        padding-top: 20px;
+        position: relative;
+        form {
+          width: 100%;
+          padding: 0;
+        }
+        .formulario-icono {
+          font-size: 25px;
+          width: fit-content;
+          height: fit-content;
+          margin: auto;
+          top: 45px;
+          left: 93%;
+          position: absolute;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+  .modal-listaRegalos-confirmacion {
+    .modal-body {
+      display: flex;
+      flex-direction: column;
+      .listaRegalos-confirmacion-titulo {
+        margin: 0 20px;
+      }
+      form {
+        input {
+          margin: 0px 0;
+          width: 100%;
+          border-radius: 9999px;
+          padding: 10px 20px;
+          border: 1px solid $Principal-azul;
+          outline: none;
+          font-size: 20px;
+        }
+        ::placeholder {
+          color: $Principal-azul;
+          font-size: 12px;
+        }
+      }
+      .modal-listaRegalos-linkDedicatoria {
+        font-size: 12px;
+        padding: 10px 0;
+        cursor: pointer;
+        width: fit-content;
+        margin: 0;
+        text-decoration: underline;
+      }
+      button {
+        width: fit-content;
+        margin-top: 10px;
+      }
+      .form-dedicatoria {
+        form {
+          padding-top: 0;
+          input {
+            height: 50px;
+            border-radius: 10px;
+            font-size: 12px;
+          }
+          ::placeholder {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+  .agradecimiento {
+    .modal-body {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      img {
+        width: 150px;
+      }
+      p {
+        padding-top: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 846px) {
+  .modal-content {
+    background-color: $Principal-blanco;
+    border-radius: 30px;
+    font-family: "give-away";
+  }
+  .modal-header {
+    border-bottom: none !important;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    p {
+      font-size: 30px;
+    }
+    svg {
+      cursor: pointer;
+    }
+  }
+  .modal-body {
+    text-align: center;
+    padding: 0;
+
+    img {
+      width: 40px;
+      padding: 10px 0;
+    }
+    p {
+      //font-size: 25px;
+
+      margin: auto;
+    }
+  }
+  .modal-footer {
+    border-top: none !important;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1;
+    margin: auto;
+  }
+  .modal-listaRegalos {
+    padding-top: 20px;
+    p {
+      font-size: 1.5rem;
+      width: 85%;
+      margin: auto;
+      text-align: center;
+      line-height: 1;
+    }
+    .modal-header {
+      display: flex;
+
+      svg {
+        font-size: 35px;
+      }
+    }
+    .modal-body {
+      display: grid;
+      grid-template-columns: 40% 60%;
+      padding: 0px 30px 50px 30px;
+
+      .listaRegalos-imagen {
+        grid-column: 1;
+        border: 1px solid $Principal-azul;
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 100%;
+        }
+
+        p {
+          font-size: 15px;
+          text-align: left;
+          padding-left: 10px;
+          margin: 0;
+        }
+      }
+      .listaRegalos-texto {
+        grid-column: 2;
+        padding: 30px 0 0 20px;
+        text-align: left;
+        p {
+          font-size: 1.1rem;
+          margin: 0;
+          width: 95%;
+          text-align: left;
+        }
+        button {
+          margin-top: 20px;
+        }
+      }
+
+      .disabledButton {
+        background-color: gray;
+      }
+
+      .seccion-formulario-regalos {
+        display: flex;
+        padding-top: 20px;
+        position: relative;
+        form {
+          width: 100%;
+          padding: 0;
+        }
+        .formulario-icono {
+          font-size: 20px;
+          width: fit-content;
+          height: fit-content;
+          margin: auto;
+          top: 37px;
+          left: 95%;
+          position: absolute;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+
+  .modal-listaRegalos-confirmacion {
+    .modal-body {
+      display: flex;
+      flex-direction: column;
+
+      p {
+        font-size: 1rem;
+        text-align: left;
+        margin: 0;
+      }
+
+      form {
+        padding-top: 30px;
+        input {
+          width: 100%;
+          border-radius: 9999px;
+          padding: 5px 10px;
+          border: 1px solid $Principal-azul;
+          outline: none;
+        }
+      }
+      .modal-listaRegalos-linkDedicatoria {
+        font-size: 12px;
+        padding: 10px 0;
+        text-decoration: underline;
+        width: fit-content;
+      }
+      button {
+        width: fit-content;
+        margin-top: 10px;
+      }
+      .form-dedicatoria {
+        form {
+          padding-top: 0;
+          input {
+            height: 40px;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+  .agradecimiento {
+    .modal-body {
+      margin: auto;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      p {
+        padding-top: 20px;
+      }
+      img {
+        width: 100px;
+      }
+    }
+  }
+}
