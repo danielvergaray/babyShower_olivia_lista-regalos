@@ -7,10 +7,7 @@ body {
   p {
     color: $Principal-azul;
   }
-  .subtitulos-textos {
-    font-family: "abygaer";
-    font-size: 25px;
-  }
+
   .cuerpo-textos {
     font-family: "give-away";
     font-size: 32px;
@@ -18,10 +15,7 @@ body {
     margin: 0;
     text-align: center;
   }
-  .otros-textos {
-    font-family: "give-away";
-    font-size: 16px;
-  }
+
   button {
     padding: 15px 20px;
     border: none;
@@ -42,9 +36,6 @@ body {
     font-size: 20px;
     font-family: "abygaer";
   }
-  .dropdown {
-    font-family: "abygaer";
-  }
 }
 
 @media (max-width: 846px) {
@@ -56,10 +47,7 @@ body {
       margin: 0;
       text-align: center;
     }
-    .otros-textos {
-      font-family: "give-away";
-      font-size: 12px;
-    }
+
     button {
       font-size: 14px;
     }

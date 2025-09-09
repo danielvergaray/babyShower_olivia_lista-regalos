@@ -104,7 +104,7 @@ const ListaRegalos = ({ regalos, textosArray }) => {
         <div className="seccion-listaRegalos-imagen">
           <img src={imagenes.iconoCupcakePan} alt="icono-cupcakePan" />
         </div>
-        <p>{textos.tituloPrincipal}</p>
+        <p className="cuerpo-textos">{textos.tituloPrincipal}</p>
       </div>
 
       {loading ? (

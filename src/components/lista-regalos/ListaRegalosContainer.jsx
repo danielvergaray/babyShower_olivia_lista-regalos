@@ -285,7 +285,7 @@ const ListaRegalosContainer = () => {
   const textos = [
     {
       tituloPrincipal:
-        "mira las opciones de esta lista. escoge y reserva el regalo que quieras darle a olivia",
+        "Si quieres darle un regalo a Olivia, puedes escoger de esta lista. Solo recuerda reservarlo.",
       tituloReserva:
         "elegista algo muy especial, confirma si quiers reservarlo",
       botonInfo: "ver info",
