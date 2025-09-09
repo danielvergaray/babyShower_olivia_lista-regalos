@@ -166,6 +166,7 @@
     background-color: $Principal-blanco;
     border-radius: 30px;
     font-family: "give-away";
+    margin: 0 20px;
   }
   .modal-header {
     border-bottom: none !important;
@@ -178,6 +179,7 @@
     }
     svg {
       cursor: pointer;
+      color: $Principal-azul;
     }
   }
   .modal-body {
