@@ -3,7 +3,10 @@
 @media (min-width: 847px) {
   .seccion-listaRegalos {
     padding-bottom: 100px;
-
+    .home-spinner {
+      margin-top: 50px;
+      text-align: center;
+    }
     p {
       font-family: "give-away";
     }
@@ -143,6 +146,11 @@
 
 @media (max-width: 846px) {
   .seccion-listaRegalos {
+    height: 100vh;
+    .home-spinner {
+      margin-top: 50%;
+      text-align: center;
+    }
     .hero-imagenCabecera {
       img {
         width: 100%;

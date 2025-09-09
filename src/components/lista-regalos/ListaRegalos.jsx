@@ -111,7 +111,7 @@ const ListaRegalos = ({ regalos, textosArray }) => {
       </div>
 
       {loading ? (
-        <div style={{ textAlign: "center", marginTop: "50px" }}>
+        <div className="home-spinner">
           <Spinner />
         </div>
       ) : (

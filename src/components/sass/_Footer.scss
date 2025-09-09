@@ -1,12 +1,11 @@
 @media (min-width: 847px) {
   .seccion-footer {
     display: grid;
-    grid-template-columns: 50% 50%;
     background-color: $Principal-azul;
     font-family: "give-away";
     padding: 20px;
-    font-size: 12px;
 
+    width: 100%;
     .link {
       a {
         text-decoration: none;
@@ -17,17 +16,11 @@
           margin: 0;
           width: fit-content;
           cursor: pointer;
+          font-size: 12px;
         }
       }
       :hover {
         color: $Secundario-naranja;
-      }
-    }
-    .link-admin {
-      a {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
       }
     }
   }
@@ -40,8 +33,7 @@
     background-color: $Principal-azul;
     font-family: "give-away";
     padding: 20px;
-    font-size: 12px;
-
+    width: 100%;
     .link {
       a {
         text-decoration: none;
@@ -51,14 +43,8 @@
           color: white;
           margin: 0;
           width: fit-content;
+          font-size: 12px;
         }
-      }
-    }
-    .link-admin {
-      a {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
       }
     }
   }
