@@ -146,7 +146,7 @@
 
 @media (max-width: 846px) {
   .seccion-listaRegalos {
-    height: 100vh;
+    min-height: 100vh;
     .home-spinner {
       margin-top: 50%;
       text-align: center;
