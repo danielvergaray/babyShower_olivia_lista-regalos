@@ -27,8 +27,6 @@ const ListaRegalos = ({ regalos, textosArray }) => {
     id: "",
   });
 
-  //const navigate = useNavigate();
-
   const handleRegalo = (regaloSelected) => {
     setInfoRegaloSelected(regaloSelected);
     setUserData({
@@ -39,9 +37,6 @@ const ListaRegalos = ({ regalos, textosArray }) => {
     });
     console.log(userData);
     setShow(true);
-    /*   const regaloSelectedId = regaloSelected.id;
-    const regaloSelectedNombre = regaloSelected.nombre; */
-    //navigate(`/lista-regalos/${regaloSelectedNombre}${regaloSelectedId}`);
   };
 
   useEffect(() => {
@@ -51,6 +46,7 @@ const ListaRegalos = ({ regalos, textosArray }) => {
     });
   }, []);
 
+  /* ASI SE HA CREADO LOS PRODUCTOS EN LA BASE DE DATOS */
   const addDataToFirebase = () => {
     const db = getFirestore();
 
@@ -61,8 +57,6 @@ const ListaRegalos = ({ regalos, textosArray }) => {
         .then((res) => console.log(res.id))
         .catch((err) => console.log(err));
     }
-
-    /* ASI SE HA CREADO LOS PRODUCTOS EN LA BASE DE DATOS */
   };
 
   /* Para actualizar lista regalos  */
@@ -85,7 +79,7 @@ const ListaRegalos = ({ regalos, textosArray }) => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    }, 2000);
   }, [loading]);
 
   return (
@@ -98,6 +92,9 @@ const ListaRegalos = ({ regalos, textosArray }) => {
           infoRegaloSelected={infoRegaloSelected}
         />
       )}
+
+      {/* Para agregar productos */}
+
       {/* <button onClick={addDataToFirebase}>agregar productos</button> */}
 
       <div className="hero-imagenCabecera">

@@ -41,12 +41,6 @@ const InfoContextProvider = ({ children }) => {
     linkRegalo: "",
   });
 
-  /*  const getUserData = (event) => {
-    setUserData({
-      ...userData,
-      [event.target.name]: event.target.value,
-    });
-  }; */
   const getUserDedicatoria = (event) => {
     if (usuarioAprobado) {
       setUserData({
@@ -154,7 +148,6 @@ const InfoContextProvider = ({ children }) => {
   const values = {
     informacion,
     loading,
-    /*  getUserData, */
     getUserDedicatoria,
     getUserDataName,
     setUserData,

@@ -12,11 +12,11 @@ const ListaRegalosContainer = () => {
       linkWeb:
         "https://www.falabella.com.pe/falabella-pe/product/21108050/Cuna-Colecho-Bebe-Joie-Kubbie-Sleep-Foggy-Gray/21108050",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416595/baby_shower_olivia-regalos/cuna_colecho_vsgh4j.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438972/baby_shower_olivia-regalos/cuna_colecho_vsgh4j.png",
       disponible: "no",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Saquito de dormir",
@@ -27,7 +27,7 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Mantas de algodón",
@@ -37,18 +37,18 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Mantas gruesas",
       linkWeb:
         "https://wawapima.pe/producto/manta-reversible-plush-jackard-beige/",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416597/baby_shower_olivia-regalos/manta_gruesa_fctele.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438927/baby_shower_olivia-regalos/manta_gruesa_fctele.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Mantas de invierno",
@@ -58,7 +58,7 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Sábanas",
@@ -69,7 +69,7 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Almohada de lactancia",
@@ -80,74 +80,74 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Extractor manual de leche",
       linkWeb:
         "https://www.maternelle.pe/products/medela-harmony-extractor-manual",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416595/baby_shower_olivia-regalos/extractor_leche_b19333.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438766/baby_shower_olivia-regalos/extractor_leche_b19333.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Biberón Natural",
       linkWeb:
         "https://infanti.com.pe/collections/biberones-chupones-y-tetinas/products/biberon-natural-response-3-0-3oz-120ml-flow-2-0m",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757342561/baby_shower_olivia-regalos/biberon__bs4xbe.png",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438508/baby_shower_olivia-regalos/biberon__bs4xbe.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Recipientes para leche",
       linkWeb:
         "https://infanti.com.pe/products/recipiente-leche-180ml-x-5-pcs-avnt?",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416598/baby_shower_olivia-regalos/recipiente_leche_aivwtd.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757437979/baby_shower_olivia-regalos/recipiente_leche_aivwtd.png",
 
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Cepillo para limpiar biberon",
       linkWeb:
         "https://infanti.com.pe/products/16020-escobilla-limpia-biberones-y-tetinas?variant=51140567400748&country=PE&currency=PEN&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_source=google_ads&utm_medium=paid_cpc&utm_campaign=pmax_avent&utm_content=&utm_term=&gadid=&gad_source=1&gad_campaignid=20040388200&gbraid=0AAAAApjVbcgXeQjCFIFNPoK0WhcS4O2-h&gclid=CjwKCAjwtfvEBhAmEiwA-DsKjiGklywhTva1d6KpfeBPY4CQUjS5GANqApIVK5LrlSZCPHSzm1chlBoCX34QAvD_BwE",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416594/baby_shower_olivia-regalos/cepillo_biberon_ijolre.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438716/baby_shower_olivia-regalos/cepillo_biberon_ijolre.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Silla de comer portatil",
       linkWeb:
         "https://www.carestino.com.pe/producto/silla-de-comer-osaka-booster-gris/",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416599/baby_shower_olivia-regalos/silla_comer_ajjz4j.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438356/baby_shower_olivia-regalos/silla_comer_ajjz4j.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Babero de silicona",
       linkWeb:
         "https://versatino.com/products/babero-versatino-4?variant=46195167232224",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416593/baby_shower_olivia-regalos/babero_silicona_dmtgly.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438871/baby_shower_olivia-regalos/babero_silicona_dmtgly.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Hombreras",
@@ -157,7 +157,7 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Babitas",
@@ -168,18 +168,18 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Hamaca o soporte para Bañera",
       linkWeb:
         "https://infanti.com.pe/products/acb010-hamaca-para-banera-bubbles?",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416595/baby_shower_olivia-regalos/hamacas_kwwxmi.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438447/baby_shower_olivia-regalos/hamacas_kwwxmi.jpg",
       disponible: "no",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Toallas con capucha",
@@ -189,7 +189,7 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Carrito Organizador",
@@ -201,7 +201,7 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Cesto Organizador",
@@ -213,18 +213,18 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Alfombra plegable o mat",
       linkWeb:
         "https://www.carestino.com.pe/producto/alfombra-antigolpes-reversible-plegable-180x200-paseo/",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416376/baby_shower_olivia-regalos/alfombra_zjng3n.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438820/baby_shower_olivia-regalos/alfombra_zjng3n.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Kit cuidado personal p/bebé",
@@ -235,39 +235,39 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Alfombra plegable",
       linkWeb: "https://noia.pe/products/noia-mat-espacial-exterior-azul",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757343627/baby_shower_olivia-regalos/alfombra-plegable_dsjhcc.png",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438186/baby_shower_olivia-regalos/alfombra-plegable_dsjhcc.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Pañalera",
       linkWeb:
         "https://bubbabags.com.pe/products/mochila-travel-cabina-pre-sale-copia?variant=44259457532054",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757343730/baby_shower_olivia-regalos/panialera_lekyqk.png",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757437869/baby_shower_olivia-regalos/panialera_lekyqk.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Estuche para pañitos humedos",
       linkWeb:
         "https://infanti.com.pe/products/234151-estuche-para-panitos-humedos-gris?variant=46836644249900&country=PE&currency=PEN&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_source=google_ads&utm_medium=paid_cpc&utm_campaign=pmax_brand&utm_content=&utm_term=&gadid=&gad_source=1&gad_campaignid=20006232690&gbraid=0AAAAApjVbcjmMAFxz-k8sVYrZNobESTjv&gclid=Cj0KCQjw8KrFBhDUARIsAMvIApYDdLtiBqNlrq-kL04dlM6biU--MYdoP0qCyLdLbR5yVS69XN75rJAaAiYkEALw_wcB?",
       linkImagen:
-        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1756416595/baby_shower_olivia-regalos/estuche_panito_v6hnvb.jpg",
+        "https://res.cloudinary.com/dcbhkxnwd/image/upload/v1757438661/baby_shower_olivia-regalos/estuche_panito_v6hnvb.png",
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
     {
       nombre: "Cambiador de pañales portatil",
@@ -278,7 +278,7 @@ const ListaRegalosContainer = () => {
       disponible: "si",
       id: generarId(),
       comprador: "",
-      mensaje: "",
+      dedicatoria: "",
     },
   ];
 
