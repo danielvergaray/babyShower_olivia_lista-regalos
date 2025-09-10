@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import InfoContext from "./InfoContext";
 import cabeceraImagen from "../../assets/imagenes/Cabecera.png";
+import cabeceraImagenMobile from "../../assets/imagenes/Cabeceramobile.png";
 import iconoCroissant from "../../assets/imagenes/iconos/croissant.png";
 import iconoCupcakePan from "../../assets/imagenes/iconos/cupcakeypan.png";
 import iconoHornoPanes from "../../assets/imagenes/iconos/hornoypanes.png";
@@ -19,6 +20,7 @@ const InfoContextProvider = ({ children }) => {
   const informacion = {
     imagenes: {
       imagenCabecera: cabeceraImagen,
+      imagenCabeceraMobile: cabeceraImagenMobile,
       iconoCroissant: iconoCroissant,
       iconoCupcakePan: iconoCupcakePan,
       iconoHornoPanes: iconoHornoPanes,

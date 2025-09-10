@@ -11,10 +11,13 @@
     p {
       font-family: "give-away";
     }
-    .hero-imagenCabecera {
+    .hero-imagenCabecera-desktop {
       img {
         width: 100%;
       }
+    }
+    .hero-imagenCabecera-mobile {
+      display: none;
     }
 
     .seccion-listaRegalos-titulo {
@@ -153,11 +156,14 @@
     p {
       font-family: "give-away";
     }
-    .hero-imagenCabecera {
+    .hero-imagenCabecera-mobile {
       img {
         width: 100%;
         height: 100px;
       }
+    }
+    .hero-imagenCabecera-desktop {
+      display: none;
     }
     .seccion-listaRegalos-titulo {
       padding-top: 50px;

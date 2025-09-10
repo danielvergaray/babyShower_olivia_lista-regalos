@@ -97,8 +97,11 @@ const ListaRegalos = ({ regalos, textosArray }) => {
 
       {/* <button onClick={addDataToFirebase}>agregar productos</button> */}
 
-      <div className="hero-imagenCabecera">
+      <div className="hero-imagenCabecera-desktop">
         <img src={imagenes.imagenCabecera} alt="imagen-carpa" />
+      </div>
+      <div className="hero-imagenCabecera-mobile">
+        <img src={imagenes.imagenCabeceraMobile} alt="imagen-carpa" />
       </div>
       <div
         className="seccion-listaRegalos-titulo"
