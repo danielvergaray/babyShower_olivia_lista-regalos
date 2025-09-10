@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   getFirestore,
   collection,
@@ -100,7 +100,12 @@ const ListaRegalos = ({ regalos, textosArray }) => {
       <div className="hero-imagenCabecera">
         <img src={imagenes.imagenCabecera} alt="imagen-carpa" />
       </div>
-      <div className="seccion-listaRegalos-titulo">
+      <div
+        className="seccion-listaRegalos-titulo"
+        data-aos-easing="linear"
+        data-aos="fade-in"
+        data-aos-duration="3000"
+      >
         <div className="seccion-listaRegalos-imagen">
           <img src={imagenes.iconoCupcakePan} alt="icono-cupcakePan" />
         </div>

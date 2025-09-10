@@ -32,6 +32,11 @@
     margin-top: 20px;
     font-family: "abygaer";
     font-size: 15px;
+
+    &:hover {
+      background-color: $Secundario-naranja;
+      color: white;
+    }
   }
 
   .modal-footer {
@@ -89,10 +94,13 @@
           width: fit-content;
           height: fit-content;
           margin: auto;
-          top: 45px;
+          top: 42.5px;
           left: 93%;
           position: absolute;
           transform: translate(-50%, -50%);
+        }
+        .popup-icono-x {
+          color: $Secundario-naranja;
         }
       }
     }
@@ -112,11 +120,9 @@
           padding: 10px 20px;
           border: 1px solid $Principal-azul;
           outline: none;
-          font-size: 20px;
         }
         ::placeholder {
           color: $Principal-azul;
-          font-size: 12px;
         }
       }
       .modal-listaRegalos-linkDedicatoria {
@@ -137,10 +143,6 @@
           input {
             height: 50px;
             border-radius: 10px;
-            font-size: 12px;
-          }
-          ::placeholder {
-            text-transform: uppercase;
           }
         }
       }
@@ -273,10 +275,13 @@
           width: fit-content;
           height: fit-content;
           margin: auto;
-          top: 37px;
+          top: 35px;
           left: 95%;
           position: absolute;
           transform: translate(-50%, -50%);
+        }
+        .popup-icono-x {
+          color: $Secundario-naranja;
         }
       }
     }

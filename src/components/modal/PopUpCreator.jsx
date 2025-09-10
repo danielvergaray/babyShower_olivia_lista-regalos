@@ -4,8 +4,8 @@ import InfoContext from "../context/InfoContext";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { IoCloseCircleOutline } from "react-icons/io5";
-import { FaCheckCircle } from "react-icons/fa";
-import { IoMdCloseCircle } from "react-icons/io";
+import { IoIosCloseCircle } from "react-icons/io";
+import { IoIosCheckmarkCircle } from "react-icons/io";
 
 const PopUpCreator = ({ show, setShow, infoRegaloSelected }) => {
   const {
@@ -88,9 +88,9 @@ const PopUpCreator = ({ show, setShow, infoRegaloSelected }) => {
                   </form>
                   <p className="formulario-icono">
                     {!usuarioAprobado && userData.nombre.length > 0 ? (
-                      <IoMdCloseCircle />
+                      <IoIosCloseCircle className="popup-icono-x" />
                     ) : usuarioAprobado && userData.nombre.length > 0 ? (
-                      <FaCheckCircle />
+                      <IoIosCheckmarkCircle />
                     ) : null}
                   </p>
                 </div>

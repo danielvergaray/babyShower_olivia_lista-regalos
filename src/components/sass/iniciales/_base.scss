@@ -33,8 +33,13 @@ body {
     padding: 20px 30px;
     border: 1px solid $Principal-azul;
     outline: none;
-    font-size: 20px;
-    font-family: "abygaer";
+    font-size: 16px;
+    font-family: "give-away";
+    text-transform: uppercase;
+    color: $Principal-azul;
+  }
+  ::placeholder {
+    color: $Principal-azul;
   }
 }
 
